@@ -1,0 +1,77 @@
+/* All common css starts here */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1320px;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* all common css ends here */
+
+/* header_part css starts here */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:35px 0;
+}
+.header_menu{
+    display: flex;
+    gap: 50px;
+    
+}
+.header_menu a:hover{
+    color: #5956E8;
+    transition: 0.3s;
+}
+.header_menu a{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #181818;
+}
+.header_btn button{
+    background-color: #5956E8;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 10px;
+}
+.header_btn button a{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+/* header_part css ends here */
+#banner_part{
+    padding: 182px 0;
+    background-color: #5956E8;
+}
+.banner{
+    display: flex;
+    gap: 280px;
+}
+.banner_content h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    color: #FFFEFE;
+    width: 501px;
+    margin-bottom: 25px;
+}
+.banner_content p{
+     font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 542px;
+}
